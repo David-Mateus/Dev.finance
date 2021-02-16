@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 93.75%; /*15px*/
+}
+
+body{
+  background: #efede7;
+  font-family: 'poppins', sans-serif;
+}
+.container{
+  width: min(90vw, 800px);
+  margin: auto;
+}
+
+h2{
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: var(--dark-blue);
+
+  font-weight: normal;
+}
+
+header {
+  background: #546CFC;
+  padding: 2rem 0 2rem;
+  text-align: center;
+}
+header h1{
+  font-size: 30px;
+  margin-top: -8px;
+  
+}
+header img{
+  width: 100px;
+  margin-left: -100px;
+  padding-top: 2px;
+}
+/* NAVBAR ============== */
+.navbar{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-left: 70px;
+  
+}
+.navbar li{
+  padding: 1rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  border-right: 1px solid lightgoldenrodyellow;
+
+  
+}
+
+ li:hover {
+  background-color:#7586e6;
+  
+}
+
+.linkk{
+  display: flex;
+  justify-content: center;
+
+  margin-right: 10%;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  
+}
+/* ===================//==== */
+/* SECTION */
+
+.sessao1 {
+  height: 10em;
+  margin: 0;
+  margin-left: 1.3rem;
+  position: absolute;               
+  top: 50%;                         
+  transform: translate(0, -50%);
+
+}
+.sessao1 h1{
+  text-align: center;
+  font-size: 3rem;
+  font-family:'roboto', "Helvetica", "Arial", sans-serif;
+  color: #536DFE;
+}
+.sessao1 p{
+  text-align: center;
+  font-size: 1rem;
+  font-style:bold;
+
+  margin: .5rem;
+  line-height: 1.167;
+  color: #546CFC;
+}
+.sessao1 a {
+  margin-left: 40%;
+}
+
+.button{
+  color: #ffffff;
+  border: 2px #546CFC solid;
+  background: #546CFC;
+  border-radius: 0.25rem;
+  text-decoration: none;
+
+  height: 35px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: .8;
+}
+.button:hover{
+  opacity: 1;
+}
+.image{
+  float:right;
+  width: 50%;
+  margin-top: 1rem;
+  margin-right: 5rem;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #546CFC;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 600px){
+  html {
+    font-size: 87.5%; /* 14px */
+  }
+  .image{
+    margin-right: 20%;
+    margin-top: 5%;
+  }
+  .sessao1 h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family:'roboto', "Helvetica", "Arial", sans-serif;
+    color: #536DFE;
+    margin-top: 8%;
+  }
+  
+}
+
